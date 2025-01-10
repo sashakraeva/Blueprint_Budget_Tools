@@ -13,15 +13,5 @@ A Python-based repository for architecture and construction students to explore 
 3. **[Blueprint & Budget Builder](combined_app/)**  
    A combined application integrating blueprint analysis with material cost estimation, allowing users to seamlessly calculate construction costs from blueprint images.
 
-## Prerequisites
+---
 
-Ensure you have Python 3.x installed and the required libraries:
-- OpenCV (`opencv-python-headless`)
-- Any additional libraries specific to each exercise (noted in individual READMEs).
-
-## Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/Blueprint-Budget-Tools.git
-   cd Blueprint-Budget-Tools
