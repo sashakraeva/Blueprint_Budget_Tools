@@ -68,6 +68,13 @@ This project introduces architecture students to the basics of OpenCV through a 
 7. If you are workig with your own blueprint, you should change names of rooms in [four_squares](blueprints/four_squares.png) excercise in the cell: room_labels = ["Toilet", "Bedroom", "Office", "Livingroom"]
 8. Enjoy!
 
+#### Future Improvements
+- Support for Diverse File Formats: Enable importing blueprints in different formats (e.g., PDF, DXF, or IFC files).
+- Test on blueprints with furiture and doors.
+- Include Material Choice and Cost Estimator for future design proposals.
+- 
+
+
 
 
 ## 2. [Building Material Cost Estimator](Building_Material_Cost_Estimator_Aleksandra_Kraeva.ipynb)
