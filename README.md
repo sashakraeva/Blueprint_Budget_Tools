@@ -4,7 +4,7 @@ A Python-based repository for architecture and construction students to explore 
 
 ## Contents
 
-1. **[Blueprint Analyzer](blueprint_analyzer/)**  
+1. **[Blueprint Analyzer](Blueprint_Analyzer_Aleksandra_Kraeva.ipynb)**  
    Analyze blueprint images using OpenCV to detect walls, room boundaries, and calculate room areas. Ideal for learning image processing basics.
 
 2. **[Flooring Cost Estimator](flooring_cost_estimator/)**  
