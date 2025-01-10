@@ -40,7 +40,7 @@ This project introduces architecture students to the basics of OpenCV through a 
 
 1. Open Google Colab Notebook [Blueprint Analyzer](Blueprint_Analyzer_Aleksandra_Kraeva.ipynb).
 2. Make a copy of it and save it to you drive/github.
-3. Upload images: 1st exercise: [four_squares](four_squares.png) 2nd exercise: [simple_square](simple_square.png) from [blueprints](blueprints/) folder
+3. Upload images: 1st exercise: [four_squares](blueprints/four_squares.png) 2nd exercise: [simple_square](blueprints/simple_square.png) from [blueprints](blueprints/) folder
 4. Save the Python script as blueprint_analyzer.py.
 5. Run the program from the terminal:
 
