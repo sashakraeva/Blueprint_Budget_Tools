@@ -15,3 +15,4 @@ A Python-based repository for architecture and construction students to explore 
 
 ---
 
+1. **[Blueprint Analyzer](blueprint_analyzer/)** 
