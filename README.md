@@ -28,7 +28,8 @@ This project introduces architecture students to the basics of OpenCV through a 
 
 #### Features
 
-- Load and Display Blueprint
+- Load and Display Blueprint:
+     - there are several ways to upload the files to google colab. We can do it through google colab files, conecting the notebook to google drive folder, or calling the files from repository in GitHub
 - Load a blueprint image from a file.
 - Display the image in a separate window.
 - Convert the image to grayscale to simplify processing.
@@ -43,5 +44,4 @@ This project introduces architecture students to the basics of OpenCV through a 
 3. Upload images: 1st exercise: [four_squares](blueprints/four_squares.png) 2nd exercise: [simple_square](blueprints/simple_square.png) from [blueprints](blueprints/) folder
 4. Work with Google Colab cell-by-cell to analyze the process and see the result
 5. Enjoy!
-
 
