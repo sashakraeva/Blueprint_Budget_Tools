@@ -48,8 +48,8 @@ This project introduces architecture students to the basics of OpenCV through a 
               - Here, the entire rectangle (both outer and inner parts) is treated as a single filled shape with two boundaries: outer and inner.
               - Contours Detection: The cv2.findContours function detects only the outer boundary of the shape and the hole inside it.
               - Result:The algorithm detects 2 contours: one for the outer boundary of the rectangle and one for the inner hollow space.
-- Calculate Room Areas
-      - the second exercise with [4 rooms](blueprints/simple_square.png) was made in a way that all contours (except the lat enternal one) could be detected and the area of them could be calculated. This approach can work with different blueprint images. If you are working with your own bluepriunt, the only cell you need to change there is: room_labels = ["Toilet", "Bedroom", "Office", "Livingroom"]
+- Calculate Room Areas.
+     - the second exercise with [4 rooms](blueprints/simple_square.png) was made in a way that all contours (except the lat enternal one) could be detected and the area of them could be calculated. This approach can work with different blueprint images. If you are working with your own bluepriunt, the only cell you need to change there is: room_labels = ["Toilet", "Bedroom", "Office", "Livingroom"]
 
 #### Tools & Libraries
 - GoogleCollab
