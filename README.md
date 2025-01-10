@@ -28,14 +28,33 @@ This project introduces architecture students to the basics of OpenCV through a 
 
 #### Features
 
-- Load and Display Blueprint:
-     - there are several ways to upload the files to google colab. We can do it through google colab files, conecting the notebook to google drive folder, or calling the files from repository in GitHub
-- Load a blueprint image from a file.
+- Load and Display Image:
+     - there are several ways to upload the files to google colab. We can do it through google colab files, conecting the notebook to google drive folder, or calling the files from repository in GitHub.
 - Display the image in a separate window.
+     - To display several pictures at the same time for better analysis we can use matplotlib to plot them.
 - Convert the image to grayscale to simplify processing.
+     - To convert image to grayscale we can use cv2 library
 - Edge Detection to highlight walls and boundaries.
+     - To detect edges Canny and Scharr methods were used
 - Contour Detection to identify closed areas (like rooms).
+     - Several trials were maid to detect accurate amount of contours. The problem faced: it was doubling the amount of contours
+     - How it was solved:
+          Why x*2 contours were appearing previously?
+            - Canny Edge Detection: This detects all edges in the image, including both the inner and outer edges of the rectangle.
+            - Contours Detection: The cv2.findContours function sees each edge separately because it traces boundaries around both the inner and outer edges.
+            - Result: Since there are two loops (one for the outer rectangle and one for the inner hollow rectangle) and each loop has two sides (inner and outer edges), the function detects 4 separate contours.
+         Why 2 contours?
+            - Thresholding was included: Converts the grayscale image into a binary image (black and white). The black areas are treated as the background, and the white areas represent the shape.
+            - Here, the entire rectangle (both outer and inner parts) is treated as a single filled shape with two boundaries: outer and inner.
+            - Contours Detection: The cv2.findContours function detects only the outer boundary of the shape and the hole inside it.
+            - Result:The algorithm detects 2 contours: one for the outer boundary of the rectangle and one for the inner hollow space.
 - Calculate Room Areas
+
+#### Tools & Libraries
+- GoogleCollab
+- Python
+- OpenCV (cv2)
+- Matplotlib (matplotlib.pyplot)
 
 #### How to Run
 
