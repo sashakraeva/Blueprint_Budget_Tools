@@ -54,8 +54,8 @@ This project introduces architecture students to the basics of OpenCV through a 
 #### Tools & Libraries
 - GoogleCollab
 - Python
-- OpenCV (cv2)
-- Matplotlib (matplotlib.pyplot)
+- cv2 library
+- matplotlib.pyplot library
 
 #### How to Run
 
@@ -67,4 +67,62 @@ This project introduces architecture students to the basics of OpenCV through a 
 6. Work with Google Colab cell-by-cell to analyze the process and see the result
 7. If you are workig with your own blueprint, you should change names of rooms in [four_squares](blueprints/four_squares.png) excercise in the cell: room_labels = ["Toilet", "Bedroom", "Office", "Livingroom"]
 8. Enjoy!
+
+
+
+## 2. [Building Material Cost Estimator](Building_Material_Cost_Estimator_Aleksandra_Kraeva.ipynb)
+
+This project serves as an opportunity for students with architectural background to learn Python. It assumes that the student is an absolute beginner and is used to teach the fundamental conecpts of Python through a hands on approach.
+
+#### Learning Objectives
+
+- Learn basic Python syntax.
+- Understand variables and data types.
+- Work with conditional statements.
+- Use loops for repetitive tasks (if expanded).
+- Create and use functions.
+- Work with lists, tuples, and dictionaries.
+- Learn basic file handling operations.
+
+#### Features
+- Calculate Room Area
+- Users input the length and width of the room.
+- The program calculates the total area in square feet.
+- Choose Material
+- Users choose a material from predefined options.
+- Each material has a cost per square foot.
+- Calculate Total Cost
+- Save Project Details to .csv file
+
+#### Tools & Libraries
+- GoogleColab
+- Python
+- csv library
+- matplotlib.pyplot library
+
+#### How to Run
+1. Open Google Collab Notebook [Building Material Cost Estimator](Building_Material_Cost_Estimator_Aleksandra_Kraeva.ipynb)
+2. Run the Notebook cell-by-cell
+
+#### How to Use
+1. Run all the cells icluding the last one with main():
+2. Choose a Surface:
+   - Select the surface type by entering the corresponding number from the displayed options.
+3. Enter Dimensions:
+   - Provide the necessary dimensions for the selected surface.
+4. Select Material:
+   - Choose a material from the list and confirm your choice.
+5. View Results:
+   - The program will display the surface area and total cost based on the chosen material.
+6. Save or Add Another Surface:
+   - Optionally save your project to a CSV file or add another surface to calculate.
+7. Export to CSV:
+   - Save all project details to a CSV file by selecting the option at the end.
+  
+#### Future Improvements
+- Add visualization of cost breakdown using charts.
+- Allow users to input custom materials and costs.
+- Implement budget management and material waste calculations.
+- Add functionality to handle imperial units.
+
 
