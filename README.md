@@ -70,7 +70,6 @@ This project introduces architecture students to the basics of OpenCV through a 
 - Support for Diverse File Formats: Enable importing blueprints in different formats (e.g., PDF, DXF, or IFC files).
 - Test on blueprints with furiture and doors.
 - Include Material Choice and Cost Estimator for future design proposals.
-- 
 
 
 
